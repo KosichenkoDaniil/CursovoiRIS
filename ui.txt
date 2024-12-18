@@ -1,0 +1,48 @@
+using SkiaSharp;
+using System;
+using System.IO;
+using System.Net.Sockets;
+
+class Client
+{
+    static void Main(string[] args)
+    {
+        try
+        {
+            TcpClient client = new TcpClient("127.0.0.1", 8000);
+            NetworkStream stream = client.GetStream();
+
+            // Чтение изображения с диска
+            Console.WriteLine("Отправка изображения серверу...");
+            byte[] imageData = File.ReadAllBytes("input.jpg");
+
+            // Отправка размера изображения
+            stream.Write(BitConverter.GetBytes(imageData.Length), 0, 4);
+            // Отправка изображения
+            stream.Write(imageData, 0, imageData.Length);
+
+            // Получение обработанного изображения
+            Console.WriteLine("Получение обработанного изображения...");
+            byte[] lengthBuffer = new byte[4];
+            stream.Read(lengthBuffer, 0, 4);
+            int responseLength = BitConverter.ToInt32(lengthBuffer, 0);
+
+            byte[] responseData = new byte[responseLength];
+            int bytesRead = 0;
+            while (bytesRead < responseLength)
+            {
+                bytesRead += stream.Read(responseData, bytesRead, responseLength - bytesRead);
+            }
+
+            // Сохранение обработанного изображения
+            File.WriteAllBytes("output.jpg", responseData);
+            Console.WriteLine("Обработка завершена. Изображение сохранено как 'output.jpg'.");
+
+            client.Close();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Ошибка: {ex.Message}");
+        }
+    }
+}

@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\labs\\ris\\CursWork\\CursWork0\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1020B57-4C08-4524-B46A-23DC158939D6}|server\\server.csproj|d:\\labs\\ris\\curswork\\curswork0\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1020B57-4C08-4524-B46A-23DC158939D6}|server\\server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F385783-34CF-4621-8024-8875641DEAC3}|Solver\\Solver.csproj|d:\\labs\\ris\\curswork\\curswork0\\solver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F385783-34CF-4621-8024-8875641DEAC3}|Solver\\Solver.csproj|solutionrelative:solver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF65302-810B-4439-9CBC-4F64D295F65A}|Client\\Client.csproj|d:\\labs\\ris\\curswork\\curswork0\\client\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1CF65302-810B-4439-9CBC-4F64D295F65A}|Client\\Client.csproj|solutionrelative:client\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF65302-810B-4439-9CBC-4F64D295F65A}|Client\\Client.csproj|d:\\labs\\ris\\curswork\\curswork0\\client\\tcpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF65302-810B-4439-9CBC-4F64D295F65A}|Client\\Client.csproj|solutionrelative:client\\tcpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF65302-810B-4439-9CBC-4F64D295F65A}|Client\\Client.csproj|d:\\labs\\ris\\curswork\\curswork0\\client\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF65302-810B-4439-9CBC-4F64D295F65A}|Client\\Client.csproj|solutionrelative:client\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F385783-34CF-4621-8024-8875641DEAC3}|Solver\\Solver.csproj|d:\\labs\\ris\\curswork\\curswork0\\solver\\adaptiveblur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F385783-34CF-4621-8024-8875641DEAC3}|Solver\\Solver.csproj|solutionrelative:solver\\adaptiveblur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\labs\\ris\\CursWork\\CursWork0\\Client\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Client\\MainWindow.xaml",
+              "ToolTip": "D:\\labs\\ris\\CursWork\\CursWork0\\Client\\MainWindow.xaml",
+              "RelativeToolTip": "Client\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-13T15:12:37.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\labs\\ris\\CursWork\\CursWork0\\Client\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Client\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\labs\\ris\\CursWork\\CursWork0\\Client\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Client\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:05:21.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TcpManager.cs",
+              "DocumentMoniker": "D:\\labs\\ris\\CursWork\\CursWork0\\Client\\TcpManager.cs",
+              "RelativeDocumentMoniker": "Client\\TcpManager.cs",
+              "ToolTip": "D:\\labs\\ris\\CursWork\\CursWork0\\Client\\TcpManager.cs",
+              "RelativeToolTip": "Client\\TcpManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:57:02.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdaptiveBlur.cs",
+              "DocumentMoniker": "D:\\labs\\ris\\CursWork\\CursWork0\\Solver\\AdaptiveBlur.cs",
+              "RelativeDocumentMoniker": "Solver\\AdaptiveBlur.cs",
+              "ToolTip": "D:\\labs\\ris\\CursWork\\CursWork0\\Solver\\AdaptiveBlur.cs",
+              "RelativeToolTip": "Solver\\AdaptiveBlur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:05:15.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\labs\\ris\\CursWork\\CursWork0\\Solver\\Program.cs",
+              "RelativeDocumentMoniker": "Solver\\Program.cs",
+              "ToolTip": "D:\\labs\\ris\\CursWork\\CursWork0\\Solver\\Program.cs",
+              "RelativeToolTip": "Solver\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T10:57:03.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\labs\\ris\\CursWork\\CursWork0\\server\\Program.cs",
+              "RelativeDocumentMoniker": "server\\Program.cs",
+              "ToolTip": "D:\\labs\\ris\\CursWork\\CursWork0\\server\\Program.cs",
+              "RelativeToolTip": "server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:29:33.701Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

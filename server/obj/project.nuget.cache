@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "D3+KoU+4vsg=",
+  "success": true,
+  "projectFilePath": "D:\\labs\\ris\\CursWork\\CursWork0\\server\\server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kosic\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512",
+    "C:\\Users\\kosic\\.nuget\\packages\\skiasharp\\2.88.9\\skiasharp.2.88.9.nupkg.sha512",
+    "C:\\Users\\kosic\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.9\\skiasharp.nativeassets.macos.2.88.9.nupkg.sha512",
+    "C:\\Users\\kosic\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.9\\skiasharp.nativeassets.win32.2.88.9.nupkg.sha512"
+  ],
+  "logs": []
+}
